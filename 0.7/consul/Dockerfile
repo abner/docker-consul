@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-ENV CONSUL_VERSION 0.7.0
+ENV CONSUL_VERSION 0.7.5
 ENV CONSUL_SHA256 b350591af10d7d23514ebaa0565638539900cdb3aaa048f077217c4c46653dd8 
 
 RUN apk --no-cache add curl ca-certificates \
